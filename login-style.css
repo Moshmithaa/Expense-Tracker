@@ -1,0 +1,155 @@
+ body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+:root {
+    --white: #ffffff; 
+    --semi-white: #E0E0E0;
+    --purple: #8566DB;
+    --black: #000000;
+    --hover-purple: #917cd1;
+}
+
+
+
+.split {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .left {
+    left: 0;
+    width: 55%;
+  }
+
+  img {
+    position: absolute;
+    width: 510px;
+    height: 500px;
+    left: 140px;
+    bottom: 0;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  .welcome {
+      color: var(--white);
+      position: absolute;
+      top: 130px;
+      left: 170px;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 50px;
+  }
+  
+  .small-text {
+      color: #E0E0E0;
+      position: absolute;
+      top: 180px;
+      left: 265px;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 29px;
+  }
+
+
+  .right {
+    width: 45%;
+    right: 0;
+  }
+
+  .redirect {
+      border: none;
+      background-color: var(--purple);
+      position: absolute;
+      width: 70px;
+      height: 30px;
+      border-radius: 10px;
+      left: 12%;
+      top: 150px;
+  }
+
+  .redirect a {
+      text-decoration: none;
+      font-size: x-large;
+      color: var(--white);
+  }
+
+  .get-started { 
+      position: absolute;
+      width: 250px;
+      height: 40px;
+      left: 12%;
+      top: 190px;
+      font-size: 34px;
+      line-height: 45px;
+  }
+
+form {
+    position: absolute;
+    left: 10%;
+    top: 260px;
+    max-width: 400px;
+    height: 500px;
+}
+
+
+.error {
+    color: red;
+    position: relative;
+    left: 20px;
+    top: -10px;
+}
+
+input,label{
+    margin: 20px;
+}
+
+
+input[type="text"],input[type="password"] {
+    direction: ltr; 
+    width: 360px;
+    height: 20px;
+    border: none;
+    border-bottom: 2.5px solid #8566DB;
+    outline: none;
+    font-size: 20px;
+    color: #505050;
+}
+
+input[type="submit"] {
+    text-decoration: none;
+    background: var(--purple);
+    color: var(--white);
+    width: 90%;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+}
+
+.sign-in {
+    color: #858080;   
+    margin: auto;
+    display: table;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 100 !important;
+}
+
+.sign-in a {
+    text-decoration: none;
+    color: var(--purple);
+}

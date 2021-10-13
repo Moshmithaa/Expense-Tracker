@@ -1,0 +1,124 @@
+body {
+    background: #F3F3F3;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+.left-container {
+    width: 80px;
+    height: 1000px;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.12);
+}
+
+.home {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 20px;
+    top: 200px;
+
+    
+}
+
+.settings {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 20px;
+    top: 290px;
+}
+
+.manage {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 20px;
+    top: 380px;
+}
+
+.logout {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 20px;
+    top: 480px;
+}
+
+button.logout {
+    border: none;
+}
+
+
+.center-container {
+    position: absolute;
+    width: 550px;
+    height: 40px;
+    top: 40px;
+    left: 200px;
+}
+
+span.greets {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.centre-left{
+
+    width: 510px;
+    height: 320px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    background: #FFFFFF;
+    filter: drop-shadow(0px 2px 40px rgba(0, 0, 0, 0.12));
+}
+
+.exp-txt {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+    top: 20px;
+    left: 38px;
+}
+
+.add {
+    position: absolute;
+    top: 40px;
+    left: 240px;
+}
+
+.centre-right {
+    width: 570px;
+    height: 320px;
+    position: absolute;
+    left: 790px;
+    top: 100px;
+    background: #FFFFFF;
+    filter: drop-shadow(0px 2px 40px rgba(0, 0, 0, 0.12));
+}
+
+.bottom {
+    position: absolute;
+    width: 1150px;
+    height: 480px;
+    left: 200px;
+    top: 480px;
+    background: #FFFFFF;
+    filter: drop-shadow(0px 2px 40px rgba(0, 0, 0, 0.12));
+    font-family: Montserrat;
+}
